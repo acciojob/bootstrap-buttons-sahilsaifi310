@@ -3,55 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-.btn-primary{
-    color: white;
-    background-color: blue
-}
-.btn-outline-secondry{
-    color: black;
-     background-color: white; 
-     outline: 1px ;
-}
-.btn-success{
-    color: white;
-     background-color: green; 
-     padding: 5px 0;
-}
-.btn-danger{
-    color: white; 
-    background-color: brown;
-     padding: 0 5px;
-
-}
-
-.btn-block{
-
-    width: 100%;
-     background-color: yellow;
-}
-
-.btn-disabled-info{
-    background-color: aqua;
-}
-.btn-link{
-    color: blue;
-}
-
-
-    </style>
+    <title>Bootstrap Buttons</title>
+    <!-- Bootstrap CSS (Bootstrap 5 CDN) -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <p>Bootstrap Button</p>
-    <button class="btn btn-primary" id="button-1">primary</button>
-    <button class="btn btn-outline-secondry" id="button-2" >outline</button>
-    <button class="btn btn-success btn-lg" id="button-3" >success</button>
-    <button class="btn btn-danger" id="button-4" >danger</button><br>
-    <button class="btn btn-warning " id="button-5" >block</button><br>
-    <button class="btn btn-disabled-info info" id="button-6" >disabled</button>
-    <button class="btn btn-light" id="button-7">light</button>
-    <button class="btn btn-link" id="button-8" >link</button>
-    
+
+<div class="container mt-5">
+    <!-- Primary Button -->
+    <button id="button-1" class="btn btn-primary">Primary Button</button>
+
+    <!-- Outline Secondary Button -->
+    <button id="button-2" class="btn btn-outline-secondary">Outline Secondary Button</button>
+
+    <!-- Success Large Button -->
+    <button id="button-3" class="btn btn-success btn-lg">Success Large Button</button>
+
+    <!-- Danger Small Button -->
+    <button id="button-4" class="btn btn-danger btn-sm">Danger Small Button</button>
+
+    <!-- Warning Large Full-Screen Width Button -->
+    <button id="button-5" class="btn btn-warning btn-lg w-100">Warning Full-Screen Width Button</button>
+
+    <!-- Disabled Info Button -->
+    <button id="button-6" class="btn btn-info" disabled>Disabled Info Button</button>
+
+    <!-- Light Button -->
+    <button id="button-7" class="btn btn-light">Light Button</button>
+
+    <!-- Link Button -->
+    <button id="button-8" class="btn btn-link">Link Button</button>
+</div>
+
+<!-- Bootstrap JS and Popper.js (Optional but recommended for Bootstrap features) -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
 </body>
 </html>
